@@ -1,9 +1,9 @@
 import React from 'react';
 import './category.styles.scss';
 
-const CategoryItem = ({ id, imageUrl, title }) => {
+const CategoryItem = ({  imageUrl, title }) => {
   return (
-    <div className="category-container" key={id}>
+    <div className="category-container" >
       <div
         className="background-image"
         style={{
